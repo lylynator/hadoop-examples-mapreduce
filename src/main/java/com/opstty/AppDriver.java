@@ -14,9 +14,9 @@ public class AppDriver {
             programDriver.addClass("wordcount", WordCount.class,
                     "A map/reduce program that counts the words in the input files.");
             programDriver.addClass("distinctDistricts", DistinctDistricts.class,
-                    "A map/reduce program that returns the distinct districts with trees in a predefined CSV formatting.");
+                    "A map/reduce program that returns the distinct districts with trees inside.");
             programDriver.addClass("species", Species.class,
-                    "A map/reduce program that returns the distinct tree species in the Remarkable Trees of Paris dataset.");
+                    "A map/reduce program that returns the distinct tree species.");
 
 
             exitCode = programDriver.run(argv);
